@@ -22,7 +22,7 @@ namespace Method_Nelder_Mid_MOzgoshmugi
         public Point X_R, X_h, X_g, X_l;
         int choice_task = 0;
 
-        public void Generate_points(int count_points)   //
+        public void Generate_points(int count_points)
         {
 
             for (int i = 0; i < count_points; i++)
