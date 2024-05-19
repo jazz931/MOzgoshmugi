@@ -1,4 +1,6 @@
-﻿using System;
+//helped at the measure of my possibilities - Mazniker Anton (copyright MOzgoshmugi 2024)
+
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
