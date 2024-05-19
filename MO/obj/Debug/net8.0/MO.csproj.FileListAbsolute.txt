@@ -1,0 +1,17 @@
+C:\Users\wizze\source\repos\MO\MO\bin\Debug\net8.0\MO.exe
+C:\Users\wizze\source\repos\MO\MO\bin\Debug\net8.0\MO.deps.json
+C:\Users\wizze\source\repos\MO\MO\bin\Debug\net8.0\MO.runtimeconfig.json
+C:\Users\wizze\source\repos\MO\MO\bin\Debug\net8.0\MO.dll
+C:\Users\wizze\source\repos\MO\MO\bin\Debug\net8.0\MO.pdb
+C:\Users\wizze\source\repos\MO\MO\bin\Debug\net8.0\MathParser.dll
+C:\Users\wizze\source\repos\MO\MO\obj\Debug\net8.0\MO.csproj.AssemblyReference.cache
+C:\Users\wizze\source\repos\MO\MO\obj\Debug\net8.0\MO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wizze\source\repos\MO\MO\obj\Debug\net8.0\MO.AssemblyInfoInputs.cache
+C:\Users\wizze\source\repos\MO\MO\obj\Debug\net8.0\MO.AssemblyInfo.cs
+C:\Users\wizze\source\repos\MO\MO\obj\Debug\net8.0\MO.csproj.CoreCompileInputs.cache
+C:\Users\wizze\source\repos\MO\MO\obj\Debug\net8.0\MO.csproj.Up2Date
+C:\Users\wizze\source\repos\MO\MO\obj\Debug\net8.0\MO.dll
+C:\Users\wizze\source\repos\MO\MO\obj\Debug\net8.0\refint\MO.dll
+C:\Users\wizze\source\repos\MO\MO\obj\Debug\net8.0\MO.pdb
+C:\Users\wizze\source\repos\MO\MO\obj\Debug\net8.0\MO.genruntimeconfig.cache
+C:\Users\wizze\source\repos\MO\MO\obj\Debug\net8.0\ref\MO.dll
