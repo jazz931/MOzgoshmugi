@@ -7,7 +7,7 @@ namespace TestProject
         [TestMethod]
         public void TestMethod1()
         {
-            //Правильность выборки выражения(задания)
+            //РџСЂР°РІРёР»СЊРЅРѕСЃС‚СЊ РІС‹Р±РѕСЂРєРё РІС‹СЂР°Р¶РµРЅРёСЏ(Р·Р°РґР°РЅРёСЏ)
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(7);
@@ -19,7 +19,7 @@ namespace TestProject
         [TestMethod]
         public void TestMethod2()
         {
-            //Проверка на успешность создания класса
+            //РџСЂРѕРІРµСЂРєР° РЅР° СѓСЃРїРµС€РЅРѕСЃС‚СЊ СЃРѕР·РґР°РЅРёСЏ РєР»Р°СЃСЃР°
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(1);
@@ -31,7 +31,7 @@ namespace TestProject
         [TestMethod]
         public void TestMethod3()
         {
-            //Проверка на правильный расчёт в формуле
+            //РџСЂРѕРІРµСЂРєР° РЅР° РїСЂР°РІРёР»СЊРЅС‹Р№ СЂР°СЃС‡С‘С‚ РІ С„РѕСЂРјСѓР»Рµ
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(2);
@@ -49,7 +49,7 @@ namespace TestProject
         [TestMethod]
         public void TestMethod4()
         {
-            //Проверка на совпадение решений функций Rashet_func
+            //РџСЂРѕРІРµСЂРєР° РЅР° СЃРѕРІРїР°РґРµРЅРёРµ СЂРµС€РµРЅРёР№ С„СѓРЅРєС†РёР№ Rashet_func
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
             string Task = metod_Nelder_Mead.Select_a_task(1);
 
@@ -78,9 +78,9 @@ namespace TestProject
         [TestMethod]
         public void TestMethod5()
         {
-            //Проверка на нахождение максимального максимальным значением функции в точке,
-            //с максимальным значением функции в точке,
-            //поиск инжекса с минимальным значением в точке
+            //РџСЂРѕРІРµСЂРєР° РЅР° РЅР°С…РѕР¶РґРµРЅРёРµ РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ РјР°РєСЃРёРјР°Р»СЊРЅС‹Рј Р·РЅР°С‡РµРЅРёРµРј С„СѓРЅРєС†РёРё РІ С‚РѕС‡РєРµ,
+            //СЃ РјР°РєСЃРёРјР°Р»СЊРЅС‹Рј Р·РЅР°С‡РµРЅРёРµРј С„СѓРЅРєС†РёРё РІ С‚РѕС‡РєРµ,
+            //РїРѕРёСЃРє РёРЅР¶РµРєСЃР° СЃ РјРёРЅРёРјР°Р»СЊРЅС‹Рј Р·РЅР°С‡РµРЅРёРµРј РІ С‚РѕС‡РєРµ
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(1);
@@ -97,7 +97,7 @@ namespace TestProject
         [TestMethod]
         public void TestMethod6()
         {
-            //Проверка на то что Find_max_value_Func() не эквивалентен Find_Next_Max_value_Func()
+            //РџСЂРѕРІРµСЂРєР° РЅР° С‚Рѕ С‡С‚Рѕ Find_max_value_Func() РЅРµ СЌРєРІРёРІР°Р»РµРЅС‚РµРЅ Find_Next_Max_value_Func()
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(1);
@@ -111,7 +111,7 @@ namespace TestProject
         [TestMethod]
         public void TestMethod7()
         {
-            //Проверка ind_search
+            //РџСЂРѕРІРµСЂРєР° ind_search
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(1);
@@ -131,7 +131,7 @@ namespace TestProject
         [TestMethod]
         public void TestMethod8()
         {
-            //Проверка Sokrachenie
+            //РџСЂРѕРІРµСЂРєР° Sokrachenie
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(2);
@@ -151,7 +151,7 @@ namespace TestProject
         [TestMethod]
         public void TestMethod9()
         {
-            //Проверка  Mirror, Find_centr_gravity, Rastyazhenie
+            //РџСЂРѕРІРµСЂРєР°  Mirror, Find_centr_gravity, Rastyazhenie
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(2);
@@ -163,7 +163,7 @@ namespace TestProject
             X.point[0] = 5.0;
             X.point[1] = 5.0;
 
-            //Для удобства округляем
+            //Р”Р»СЏ СѓРґРѕР±СЃС‚РІР° РѕРєСЂСѓРіР»СЏРµРј
             Point check = metod_Nelder_Mead.Mirror();
             check.point[0] = Math.Round(check.point[0]);
             check.point[1] = Math.Round(check.point[1]);
@@ -183,15 +183,15 @@ namespace TestProject
         [TestMethod]
         public void TestMethod_1()
         {
-            //    //Математический тест #1
+            //    //РњР°С‚РµРјР°С‚РёС‡РµСЃРєРёР№ С‚РµСЃС‚ #1
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(1);
             metod_Nelder_Mead.Generate_points(2 + 1);
             metod_Nelder_Mead.Method();
 
-            Console.WriteLine($"Лучшая точка: x1 = {metod_Nelder_Mead.X_l.point[0]} , x2 = {metod_Nelder_Mead.X_l.point[1]}");
-            Console.WriteLine($"Минимальное значение функции: {metod_Nelder_Mead.f_l}");
+            Console.WriteLine($"Р›СѓС‡С€Р°СЏ С‚РѕС‡РєР°: x1 = {metod_Nelder_Mead.X_l.point[0]} , x2 = {metod_Nelder_Mead.X_l.point[1]}");
+            Console.WriteLine($"РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё: {metod_Nelder_Mead.f_l}");
 
             string expr = "cos(x1 - 2*pi) + sin(x2 + pi) + 3";
 
@@ -214,15 +214,15 @@ namespace TestProject
         [TestMethod]
         public void TestMethod_2()
         {
-            //    //Математический тест #2
+            //    //РњР°С‚РµРјР°С‚РёС‡РµСЃРєРёР№ С‚РµСЃС‚ #2
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(2);
             metod_Nelder_Mead.Generate_points(2 + 1);
             metod_Nelder_Mead.Method();
 
-            Console.WriteLine($"Лучшая точка: x1 = {metod_Nelder_Mead.X_l.point[0]} , x2 = {metod_Nelder_Mead.X_l.point[1]}");
-            Console.WriteLine($"Минимальное значение функции: {metod_Nelder_Mead.f_l}");
+            Console.WriteLine($"Р›СѓС‡С€Р°СЏ С‚РѕС‡РєР°: x1 = {metod_Nelder_Mead.X_l.point[0]} , x2 = {metod_Nelder_Mead.X_l.point[1]}");
+            Console.WriteLine($"РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё: {metod_Nelder_Mead.f_l}");
 
             string expr = "20 + (x1 - 5)^2 + (x2 - 5)^2 - 10*cos(2*pi*x1) - 10*cos(2*pi*x2)";
 
@@ -239,15 +239,15 @@ namespace TestProject
         [TestMethod]
         public void TestMethod_3()
         {
-            //    //Математический тест #3
+            //    //РњР°С‚РµРјР°С‚РёС‡РµСЃРєРёР№ С‚РµСЃС‚ #3
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(3);
             metod_Nelder_Mead.Generate_points(2 + 1);
             metod_Nelder_Mead.Method();
 
-            Console.WriteLine($"Лучшая точка: x1 = {metod_Nelder_Mead.X_l.point[0]} , x2 = {metod_Nelder_Mead.X_l.point[1]}");
-            Console.WriteLine($"Минимальное значение функции: {metod_Nelder_Mead.f_l}");
+            Console.WriteLine($"Р›СѓС‡С€Р°СЏ С‚РѕС‡РєР°: x1 = {metod_Nelder_Mead.X_l.point[0]} , x2 = {metod_Nelder_Mead.X_l.point[1]}");
+            Console.WriteLine($"РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё: {metod_Nelder_Mead.f_l}");
 
             string expr = "0.5 + ((sin(x1^2 - x2^2)^2 - 0.5))/(1 + 0.001*(x1^2 + x2^2))^2";
 
@@ -269,15 +269,15 @@ namespace TestProject
         [TestMethod]
         public void TestMethod_4_1()
         {
-            //Математический тест #4.2
+            //РњР°С‚РµРјР°С‚РёС‡РµСЃРєРёР№ С‚РµСЃС‚ #4.2
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(4);
             metod_Nelder_Mead.Generate_points(2 + 1);
             metod_Nelder_Mead.Method();
 
-            Console.WriteLine($"Лучшая точка: x1 = {metod_Nelder_Mead.X_l.point[0]} , x2 = {metod_Nelder_Mead.X_l.point[1]}");
-            Console.WriteLine($"Минимальное значение функции: {metod_Nelder_Mead.f_l}");
+            Console.WriteLine($"Р›СѓС‡С€Р°СЏ С‚РѕС‡РєР°: x1 = {metod_Nelder_Mead.X_l.point[0]} , x2 = {metod_Nelder_Mead.X_l.point[1]}");
+            Console.WriteLine($"РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё: {metod_Nelder_Mead.f_l}");
 
             string expr = "x1^2 + x2^2 - 4*x1 + 100 - 8*x2";
 
@@ -299,15 +299,15 @@ namespace TestProject
         [TestMethod]
         public void TestMethod_4_2()
         {
-            //Математический тест #4.2
+            //РњР°С‚РµРјР°С‚РёС‡РµСЃРєРёР№ С‚РµСЃС‚ #4.2
             Metod_Nelder_Mead metod_Nelder_Mead = new Metod_Nelder_Mead();
 
             string Task = metod_Nelder_Mead.Select_a_task(8);
             metod_Nelder_Mead.Generate_points(2 + 1);
             metod_Nelder_Mead.Method();
 
-            Console.WriteLine($"Лучшая точка: x1 = {metod_Nelder_Mead.X_l.point[0]} , x2 = {metod_Nelder_Mead.X_l.point[1]}");
-            Console.WriteLine($"Минимальное значение функции: {metod_Nelder_Mead.f_l}");
+            Console.WriteLine($"Р›СѓС‡С€Р°СЏ С‚РѕС‡РєР°: x1 = {metod_Nelder_Mead.X_l.point[0]} , x2 = {metod_Nelder_Mead.X_l.point[1]}");
+            Console.WriteLine($"РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё: {metod_Nelder_Mead.f_l}");
 
             string expr = "x1^2 + x2^2 - 4*x1 + 100 - 8*x2";
 
