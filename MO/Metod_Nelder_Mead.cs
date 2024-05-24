@@ -220,7 +220,8 @@ namespace Method_Nelder_Mid_MOzgoshmugi
             {
                 Rashet_func();  //1
 
-                X_h = Find_max_value_Func();    //2
+                X_h = Find_max_value_Func();
+                f_h = Rashet_func(X_h);//2
                 X_g = Find_Next_Max_value_Func();
                 X_l = Find_min_value_Func();
                 f_h = Rashet_func(X_h);
